@@ -1,0 +1,1241 @@
+# vsim -L PolarFire -L presynth -L COREAHBLITE_LIB -L COREAHBTOAPB3_LIB -L COREAPB3_LIB -L COREAXITOAHBL_LIB -L COREJTAGDEBUG_LIB -L CORESPI_LIB -L COREAHBLTOAXI_LIB -L CORESYSSERVICES_PF_LIB -t 1ps -pli "C:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/pli/pf_crypto_win_me_pli.dll" presynth.AXI_INTR_TOP_tb -l simulation.log "+iXA_NORMAL_ALL_LONG_TEST" 
+# Start time: 15:40:33 on Apr 10,2022
+# //  ModelSim Microsemi 2020.3 Jul 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading presynth.AXI_INTR_TOP_tb
+# Loading presynth.AXI_INTR_TOP
+# Loading presynth.Clocking_and_Reset_top
+# Loading PolarFire.AND2
+# Loading PolarFire.CFG2
+# Loading PolarFire.AND4
+# Loading PolarFire.CFG4
+# Loading presynth.CORERESET_PF_C0
+# Loading presynth.CORERESET_PF_C0_CORERESET_PF_C0_0_CORERESET_PF
+# Loading PolarFire.INBUF_DIFF
+# Loading presynth.PF_CCC_C1
+# Loading presynth.PF_CCC_C1_PF_CCC_C1_0_PF_CCC
+# Loading PolarFire.CLKINT
+# Loading PolarFire.PLL
+# Loading PolarFire.PLL_DELAY
+# Loading PolarFire.PLL_DELAY_IP
+# Loading PolarFire.DLL_DELAY_BLOCK
+# Loading PolarFire.PLL_IP
+# Loading PolarFire.PLL_DRI_REGISTERS
+# Loading PolarFire.pll_lp_vco
+# Loading PolarFire.CCC_RF_DIV
+# Loading PolarFire.Freq_Divider
+# Loading PolarFire.Even_Divider
+# Loading PolarFire.Odd_Divider
+# Loading PolarFire.CCC_FB_DIV
+# Loading PolarFire.frac_divider
+# Loading PolarFire.freq_multiplier
+# Loading PolarFire.CCC_PLL
+# Loading PolarFire.ABISCB82
+# Loading PolarFire.ABI_PLL_FRONT
+# Loading PolarFire.refstop
+# Loading PolarFire.Divide_2
+# Loading PolarFire.ABI_PHASE
+# Loading PolarFire.PLL_PHASE_SELECT
+# Loading PolarFire.PF_PLLUM28HLPMFFRAC_postdiv_pd_sync
+# Loading PolarFire.PF_PLLUM28HLPMFFRAC_divsw8
+# Loading PolarFire.PF_PLLUM28HLPMFFRAC_tff_st1x_loadb
+# Loading PolarFire.PF_PLLUM28HLPMFFRAC_cmosdiv_2to127
+# Loading PolarFire.PF_PLLUM28HLPMFFRAC_ffbrx1cstm
+# Loading PolarFire.PF_PLLUM28HLPMFFRAC_latchx1cstmb
+# Loading PolarFire.PF_PLLUM28HLPMFFRAC_ffqbibrbx1cstm
+# Loading PolarFire.CCC_POST_DIV
+# Loading PolarFire.CCC_POSTDIVEN_SYNC
+# Loading PolarFire.div2
+# Loading PolarFire.CCC_8X1_MUX
+# Loading PolarFire.CCC_2X1_MUX
+# Loading PolarFire.VCC
+# Loading PolarFire.GND
+# Loading presynth.PF_INIT_MONITOR_C0
+# Loading presynth.PF_INIT_MONITOR_C0_PF_INIT_MONITOR_C0_0_PF_INIT_MONITOR
+# Loading PolarFire.BANKEN
+# Loading presynth.COREAXI4INTERCONNECT_C0
+# Loading presynth.COREAXI4INTERCONNECT
+# Loading presynth.caxi4interconnect_ResetSycnc
+# Loading presynth.caxi4interconnect_Axi4CrossBar
+# Loading presynth.SFP_PCI
+# Loading PolarFire.INV
+# Loading presynth.LED
+# Loading presynth.PCI_Test_Block
+# Loading presynth.PF_TX_PLL_C0
+# Loading presynth.PF_TX_PLL_C0_PF_TX_PLL_C0_0_PF_TX_PLL
+# Loading PolarFire.TX_PLL
+# Loading presynth.PF_XCVR_ERM_C0
+# Loading presynth.PF_XCVR_ERM_C0_I_XCVR_PF_XCVR
+# Loading PolarFire.RCLKINT
+# Loading PolarFire.XCVR_64B6XB
+# Loading presynth.PF_XCVR_REF_CLK_C0
+# Loading presynth.PF_XCVR_REF_CLK_C0_PF_XCVR_REF_CLK_C0_0_PF_XCVR_REF_CLK
+# Loading PolarFire.XCVR_REF_CLK
+# Loading presynth.pf_dio
+# Loading presynth.pf_hp
+# Loading presynth.pf_ioe
+# Loading presynth.Seven_Seg
+# Loading presynth.SFP_Test_Block
+# Loading presynth.State_machine
+# Loading presynth.PF_SRAM_AHBL_AXI_C0
+# Loading presynth.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM
+# Loading presynth.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF
+# Loading presynth.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL
+# Loading PolarFire.MX2
+# Loading PolarFire.CFG3
+# Loading PolarFire.OR4
+# Loading presynth.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM
+# Loading PolarFire.RAM1K20
+# Loading PolarFire.RAM1K20_IP
+# Loading PolarFire.RAM_DLY
+# Loading PolarFire.ECC_PIPELINE
+# Loading presynth.caxi4interconnect_AddressController
+# Loading presynth.caxi4interconnect_TargetMuxController
+# Loading presynth.caxi4interconnect_RDataController
+# Loading presynth.caxi4interconnect_WDataController
+# Loading presynth.caxi4interconnect_RespController
+# Loading presynth.caxi4interconnect_RoundRobinArb
+# Loading presynth.caxi4interconnect_SlaveDataMuxController
+# Loading presynth.caxi4interconnect_DERR_Slave
+# Loading presynth.caxi4interconnect_revision
+# Loading presynth.caxi4interconnect_MasterConvertor
+# Loading presynth.caxi4interconnect_RegisterSlice
+# Loading presynth.caxi4interconnect_MstrDataWidthConv
+# Loading presynth.caxi4interconnect_MstrClockDomainCrossing
+# Loading presynth.caxi4interconnect_SlaveConvertor
+# Loading presynth.caxi4interconnect_SlvDataWidthConverter
+# Loading presynth.caxi4interconnect_SlvProtocolConverter
+# Loading presynth.caxi4interconnect_SlvClockDomainCrossing
+# Loading PolarFire.SLE_Prim
+# Loading presynth.caxi4interconnect_MasterControl
+# Loading presynth.caxi4interconnect_DependenceChecker
+# Loading presynth.caxi4interconnect_TransactionController
+# Loading presynth.caxi4interconnect_BitScan0
+# Loading presynth.caxi4interconnect_ReadDataController
+# Loading presynth.caxi4interconnect_ReadDataMux
+# Loading presynth.caxi4interconnect_FifoDualPort
+# Loading presynth.caxi4interconnect_WriteDataMux
+# Loading presynth.caxi4interconnect_RegSliceFull
+# Loading presynth.caxi4interconnect_MstrProtocolConverter
+# Loading presynth.caxi4interconnect_DownConverter
+# Loading presynth.caxi4interconnect_DWC_DownConv_writeWidthConv
+# Loading presynth.caxi4interconnect_FIFO
+# Loading presynth.caxi4interconnect_FIFO_CTRL
+# Loading presynth.caxi4interconnect_DWC_DownConv_Hold_Reg_Wr
+# Loading presynth.caxi4interconnect_Hold_Reg_Ctrl
+# Loading presynth.caxi4interconnect_DWC_DownConv_widthConvwr
+# Loading presynth.caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl
+# Loading presynth.caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl
+# Loading presynth.caxi4interconnect_DWC_DownConv_readWidthConv
+# Loading presynth.caxi4interconnect_SlvAxi4ProtConvAXI4ID
+# Loading presynth.caxi4interconnect_MasterAddressDecoder
+# Loading presynth.caxi4interconnect_RequestQual
+# Loading presynth.caxi4interconnect_DualPort_FF_SyncWr_SyncRd
+# Loading presynth.caxi4interconnect_RAM_BLOCK
+# Loading presynth.caxi4interconnect_DWC_brespCtrl
+# Loading presynth.caxi4interconnect_DWC_DownConv_Hold_Reg_Rd
+# Loading presynth.caxi4interconnect_DWC_DownConv_widthConvrd
+# Loading presynth.caxi4interconnect_byte2bit
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AXI_INTR_TOP_0'.  Expected 192, found 124.
+#    Time: 0 ps  Iteration: 0  Instance: /AXI_INTR_TOP_tb/AXI_INTR_TOP_0 File: C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v Line: 6496
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'MASTER0_ARID'. The port definition is at: C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/component/work/AXI_INTR_TOP/AXI_INTR_TOP.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /AXI_INTR_TOP_tb/AXI_INTR_TOP_0 File: C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v Line: 6496
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'MASTER0_AWID'. The port definition is at: C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/component/work/AXI_INTR_TOP/AXI_INTR_TOP.v(29).
+#    Time: 0 ps  Iteration: 0  Instance: /AXI_INTR_TOP_tb/AXI_INTR_TOP_0 File: C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v Line: 6496
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'MASTER0_BID'. The port definition is at: C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/component/work/AXI_INTR_TOP/AXI_INTR_TOP.v(141).
+#    Time: 0 ps  Iteration: 0  Instance: /AXI_INTR_TOP_tb/AXI_INTR_TOP_0 File: C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v Line: 6496
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'MASTER0_RID'. The port definition is at: C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/component/work/AXI_INTR_TOP/AXI_INTR_TOP.v(146).
+#    Time: 0 ps  Iteration: 0  Instance: /AXI_INTR_TOP_tb/AXI_INTR_TOP_0 File: C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v Line: 6496
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_ARADDR'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_ARBURST'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_ARCACHE'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_ARID'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_ARLEN'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_ARLOCK'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_ARPROT'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_ARSIZE'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_ARUSER'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_ARVALID'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_AWADDR'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_AWBURST'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_AWCACHE'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_AWID'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_AWLEN'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_AWLOCK'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_AWPROT'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_AWSIZE'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_AWUSER'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_AWVALID'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_BREADY'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_RREADY'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_WDATA'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_WID'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_WLAST'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_WSTRB'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_WUSER'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_WVALID'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'SFP_LANE2_RXD_N'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'SFP_LANE2_RXD_P'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'SFP_LANE3_RXD_N'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'SFP_LANE3_RXD_P'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'FABRIC_RESET_N'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'LED_Pattern'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_ARREADY'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_AWREADY'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_BID'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_BRESP'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_BUSER'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_BVALID'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_RDATA'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_RID'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_RLAST'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_RRESP'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_RUSER'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_RVALID'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'MASTER1_WREADY'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'SFP_LANE2_TXD_N'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'SFP_LANE2_TXD_P'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'SFP_LANE3_TXD_N'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'SFP_LANE3_TXD_P'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'Seven_seg_1'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'c_gpio_out0'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'c_gpio_out1'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'c_gpio_out2'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'c_gpio_out3'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'c_gpio_out4'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'c_gpio_out5'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'c_gpio_out6'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'c_gpio_out7'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'dummy'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'io_break1'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'io_break2'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'io_buzzer1'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'io_pwr_on_off1'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'io_shut_down2'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'probe_b'.
+# ** Warning: (vsim-3722) C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(6496): [TFMPC] - Missing connection for port 'src_of_sw_in1'.
+# Loading PolarFire.UDP_MUX2
+# Loading PolarFire.UDP_GBLAT_T
+# Loading PolarFire.UDP_DFF
+# Loading PolarFire.UDP_DL
+# Loading C:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/pli/pf_crypto_win_me_pli.dll
+# WARNING: No extended dataflow license exists
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Ethernet_10G  Hostname: DESKTOP-QV0H1N6  ProcessID: 10184
+#           Attempting to use alternate WLF file "./wlft4fd6i7".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft4fd6i7
+# ** UI-Msg (suppressible): (vsim-3561) No objects found matching 'AXI_INTR_TOP'.
+# WARNING AXI_INTR_TOP_tb.AXI_INTR_TOP_0.Clocking_and_Reset_top_0.PF_INIT_MONITOR_C0_0.PF_INIT_MONITOR_C0_0.I_INIT: USRAM_INIT_DONE assertion delay should be larger than the SRAM_INIT_DONE assertion delay by at least 3ns
+# WARNING AXI_INTR_TOP_tb.AXI_INTR_TOP_0.Clocking_and_Reset_top_0.PF_INIT_MONITOR_C0_0.PF_INIT_MONITOR_C0_0.I_INIT: DEVICE_INIT_DONE assertion delay should be larger than the USRAM_INIT_DONE assertion delay by at least 3ns
+# 
+#  NORMAL ALL LONG TEST SCENARIO
+# 
+#  PCIe Loopback MODE SCENARIO - 1
+# Expecting STATUS IDLE(2'b00) but got its value, TEST_STATUS_REG_VALUE = xxxxxxxx LINE : 'd4877 TIME : 690590 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 781339.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 781339.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# PCIe module busy signal HIGH as expected ! LINE : 'd5076 TIME : 944089 
+# TEST_STATUS = PROGRESS LINE : 'd4902 TIME : 1078089 
+#  TEST_RESULT = TEST_SUCCESS and TEST_STATUS = TEST_COMPLETE LINE : 'd4929 TIME : 31262089 
+# 
+# Test pattern sent from TB	: 'hffff000000000000 LINE : 'd5981 TIME : 31262089
+# Corrupted Test_pattern value	: 'hffff000000000000 LINE : 'd5983 TIME : 31262089
+# Expected DATA_STATUS_REG value : 'h0 LINE : 'd5989 TIME : 31262089
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd5995 TIME : 31535590
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6001 TIME : 31814590
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6007 TIME : 32093590
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6014 TIME : 32372590
+# PASS : For PCIe, Actual value of Data status reg 'h0 matches with expected 'h0 LINE : 'd6051 TIME : 32372590
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 32463339.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 32463339.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# PASS : For PCI, Errorcode reset implemented successfully LINE : 'd6431 TIME : 33302089
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd6454 TIME : 33581590
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6460 TIME : 33860590
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6466 TIME : 34139590
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6473 TIME : 34418590
+# Actual Value of Test Status Register = 'h0 LINE : 'd6478 TIME : 34697590
+# PASS : All 4 Data Status Registers and Test Status Register reset to 0
+# 
+# ///////////////////////////////////////////////////////////////////////////////////
+# ///////                   TEST PASSED                                      ////////
+# ///////////////////////////////////////////////////////////////////////////////////
+# 
+#  DIO INPUT MODE SCENARIO - 2
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 34788339.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 34788339.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# TEST_STATUS = IDLE and TEST_STATUS_REG_VALUE = 00000000 LINE : 'd4874 TIME : 34953339 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 35261089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 35261089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# DIO module busy signal HIGH as expected ! LINE : 'd5092 TIME : 35392839 
+# TEST_STATUS = PROGRESS LINE : 'd4902 TIME : 35526839 
+# Test Pattern MATCHED LINE : 'd5005 TIME : 35526839 
+#  TEST_RESULT = TEST_SUCCESS and TEST_STATUS = TEST_COMPLETE LINE : 'd4929 TIME : 36601839 
+# 
+# Test pattern sent from TB	: 'hfb400288e79e4aa LINE : 'd5981 TIME : 36601839
+# Corrupted Test_pattern value	: 'hfb400288e79e4aa LINE : 'd5983 TIME : 36601839
+# Expected DATA_STATUS_REG value : 'h0 LINE : 'd5989 TIME : 36601839
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd5995 TIME : 36875339
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6001 TIME : 37154339
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6007 TIME : 37433339
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6014 TIME : 37712339
+# PASS : For DIO, Actual value of Data status reg 'h0 matches with expected 'h0 LINE : 'd6018 TIME : 37712339
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 37803089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 37803089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# PASS : For DIO, Errorcode reset implemented successfully LINE : 'd6407 TIME : 38641839
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd6454 TIME : 38921339
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6460 TIME : 39200339
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6466 TIME : 39479339
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6473 TIME : 39758339
+# Actual Value of Test Status Register = 'h0 LINE : 'd6478 TIME : 40037339
+# PASS : All 4 Data Status Registers and Test Status Register reset to 0
+# 
+# ///////////////////////////////////////////////////////////////////////////////////
+# ///////                   TEST PASSED                                      ////////
+# ///////////////////////////////////////////////////////////////////////////////////
+# 
+#  DIO OUTPUT MODE SCENARIO - 3
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 40128089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 40128089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# TEST_STATUS = IDLE and TEST_STATUS_REG_VALUE = 00000000 LINE : 'd4874 TIME : 40293089 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 40600839.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 40600839.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# DIO module busy signal HIGH as expected ! LINE : 'd5092 TIME : 40763590 
+# TEST_STATUS = PROGRESS LINE : 'd4902 TIME : 40897590 
+# Test Pattern MATCHED LINE : 'd5005 TIME : 40897590 
+#  TEST_RESULT = TEST_SUCCESS and TEST_STATUS = TEST_COMPLETE LINE : 'd4929 TIME : 41972590 
+# OUTPUT mode check PASSED LINE : 'd5021 TIME : 41972590 
+# 
+# Test pattern sent from TB	: 'h5becb7c4fbb380b7 LINE : 'd5981 TIME : 41972590
+# Corrupted Test_pattern value	: 'h5becb7c4fbb380b7 LINE : 'd5983 TIME : 41972590
+# Expected DATA_STATUS_REG value : 'h0 LINE : 'd5989 TIME : 41972590
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd5995 TIME : 42246089
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6001 TIME : 42525089
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6007 TIME : 42804089
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6014 TIME : 43083089
+# PASS : For DIO, Actual value of Data status reg 'h0 matches with expected 'h0 LINE : 'd6018 TIME : 43083089
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 43173839.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 43173839.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# PASS : For DIO, Errorcode reset implemented successfully LINE : 'd6407 TIME : 44012590
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd6454 TIME : 44292089
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6460 TIME : 44571089
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6466 TIME : 44850089
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6473 TIME : 45129089
+# Actual Value of Test Status Register = 'h0 LINE : 'd6478 TIME : 45408089
+# PASS : All 4 Data Status Registers and Test Status Register reset to 0
+# 
+# ///////////////////////////////////////////////////////////////////////////////////
+# ///////                   TEST PASSED                                      ////////
+# ///////////////////////////////////////////////////////////////////////////////////
+# 
+#  IOE INPUT MODE - 4
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 45498839.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 45498839.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# TEST_STATUS = IDLE and TEST_STATUS_REG_VALUE = 00000000 LINE : 'd4874 TIME : 45663839 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 45971590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 45971590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# IOE module busy signal HIGH as expected ! LINE : 'd5108 TIME : 46095590 
+# TEST_STATUS = PROGRESS LINE : 'd4902 TIME : 46237339 
+# Test Pattern MATCHED LINE : 'd5005 TIME : 46237339 
+#  TEST_RESULT = TEST_SUCCESS and TEST_STATUS = TEST_COMPLETE LINE : 'd4929 TIME : 47312339 
+# 
+# Test pattern sent from TB	: 'h901e88b LINE : 'd5981 TIME : 47312339
+# Corrupted Test_pattern value	: 'h901e88b LINE : 'd5983 TIME : 47312339
+# Expected DATA_STATUS_REG value : 'h0 LINE : 'd5989 TIME : 47312339
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd5995 TIME : 47585839
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6001 TIME : 47864839
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6007 TIME : 48143839
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6014 TIME : 48422839
+# PASS : For IOE, Actual value of Data status reg 'h0 matches with expected 'h0 LINE : 'd6029 TIME : 48422839
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 48513590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 48513590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# PASS : For IOE, Errorcode reset implemented successfully LINE : 'd6413 TIME : 49352339
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd6454 TIME : 49631839
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6460 TIME : 49910839
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6466 TIME : 50189839
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6473 TIME : 50468839
+# Actual Value of Test Status Register = 'h0 LINE : 'd6478 TIME : 50747839
+# PASS : All 4 Data Status Registers and Test Status Register reset to 0
+# 
+# ///////////////////////////////////////////////////////////////////////////////////
+# ///////                   TEST PASSED                                      ////////
+# ///////////////////////////////////////////////////////////////////////////////////
+# 
+#  IOE OUTPUT MODE SCENARIO - 5
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 50838590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 50838590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# TEST_STATUS = IDLE and TEST_STATUS_REG_VALUE = 00000000 LINE : 'd4874 TIME : 51003590 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 51311339.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 51311339.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# IOE module busy signal HIGH as expected ! LINE : 'd5108 TIME : 51466339 
+# TEST_STATUS = PROGRESS LINE : 'd4902 TIME : 51600339 
+# Test Pattern MATCHED LINE : 'd5005 TIME : 51600339 
+#  TEST_RESULT = TEST_SUCCESS and TEST_STATUS = TEST_COMPLETE LINE : 'd4929 TIME : 52675339 
+# OUTPUT mode check PASSED LINE : 'd5021 TIME : 52675339 
+# 
+# Test pattern sent from TB	: 'hc2fee3b777946c1b LINE : 'd5981 TIME : 52675339
+# Corrupted Test_pattern value	: 'hc2fee3b777946c1b LINE : 'd5983 TIME : 52675339
+# Expected DATA_STATUS_REG value : 'h0 LINE : 'd5989 TIME : 52675339
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd5995 TIME : 52948839
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6001 TIME : 53227839
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6007 TIME : 53506839
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6014 TIME : 53785839
+# PASS : For IOE, Actual value of Data status reg 'h0 matches with expected 'h0 LINE : 'd6029 TIME : 53785839
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 53876590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 53876590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# PASS : For IOE, Errorcode reset implemented successfully LINE : 'd6413 TIME : 54715339
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd6454 TIME : 54994839
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6460 TIME : 55273839
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6466 TIME : 55552839
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6473 TIME : 55831839
+# Actual Value of Test Status Register = 'h0 LINE : 'd6478 TIME : 56110839
+# PASS : All 4 Data Status Registers and Test Status Register reset to 0
+# 
+# ///////////////////////////////////////////////////////////////////////////////////
+# ///////                   TEST PASSED                                      ////////
+# ///////////////////////////////////////////////////////////////////////////////////
+# 
+#  SEVEN SEG USER MODE SCENARIO - 6
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 56201590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 56201590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# TEST_STATUS = IDLE and TEST_STATUS_REG_VALUE = 00000000 LINE : 'd4874 TIME : 56366590 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 56674339.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 56674339.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# SEVEN_SEG module busy signal HIGH as expected ! LINE : 'd5124 TIME : 56798339 
+# TEST_STATUS = PROGRESS LINE : 'd4902 TIME : 56932339 
+# Test Pattern MATCHED LINE : 'd5005 TIME : 56932339 
+# Got Seven Seg pattern MATCHED for Data_in =10 LINE : 'd5271 TIME : 56932339 
+#  TEST_RESULT = TEST_SUCCESS and TEST_STATUS = TEST_COMPLETE LINE : 'd4929 TIME : 57852339 
+# 
+# Test pattern sent from TB	: 'h57f3a028945de02a LINE : 'd5981 TIME : 57852339
+# Corrupted Test_pattern value	: 'h57f3a028945de02a LINE : 'd5983 TIME : 57852339
+# Expected DATA_STATUS_REG value : 'h0 LINE : 'd5989 TIME : 57852339
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd5995 TIME : 58125839
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6001 TIME : 58404839
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6007 TIME : 58683839
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6014 TIME : 58962839
+# PASS : For SEVEN_SEG, Actual value of Data status reg 'h0 matches with expected 'h0 LINE : 'd6073 TIME : 58962839
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 59053590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 59053590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# PASS : For SEVEN_SEG, Errorcode reset implemented successfully LINE : 'd6443 TIME : 59892339
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd6454 TIME : 60171839
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6460 TIME : 60450839
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6466 TIME : 60729839
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6473 TIME : 61008839
+# Actual Value of Test Status Register = 'h0 LINE : 'd6478 TIME : 61287839
+# PASS : All 4 Data Status Registers and Test Status Register reset to 0
+# 
+# ///////////////////////////////////////////////////////////////////////////////////
+# ///////                   TEST PASSED                                      ////////
+# ///////////////////////////////////////////////////////////////////////////////////
+# 
+#  SEVEN SEG INC MODE SCENARIO - 7
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 61378590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 61378590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# TEST_STATUS = IDLE and TEST_STATUS_REG_VALUE = 00000000 LINE : 'd4874 TIME : 61543590 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 61634339.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 61634339.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# SEVEN_SEG module busy signal HIGH as expected ! LINE : 'd5124 TIME : 61789339 
+# TEST_STATUS = PROGRESS LINE : 'd4902 TIME : 61923339 
+# Got Seven Seg pattern value 0 LINE : 'd5340 TIME : 61923339 
+# Got Seven Seg pattern value 1 LINE : 'd5346 TIME : 62587590 
+# Got Seven Seg pattern value 2 LINE : 'd5359 TIME : 63378089 
+# Got Seven Seg pattern value 3 LINE : 'd5371 TIME : 64168590 
+# Got Seven Seg pattern value 4 LINE : 'd5383 TIME : 64959089 
+# Got Seven Seg pattern value 5 LINE : 'd5395 TIME : 65749590 
+# Got Seven Seg pattern value 6 LINE : 'd5407 TIME : 66540089 
+# Got Seven Seg pattern value 7 LINE : 'd5419 TIME : 67330590 
+# Got Seven Seg pattern value 8 LINE : 'd5431 TIME : 68121089 
+# Got Seven Seg pattern value 9 LINE : 'd5443 TIME : 68911590 
+# Got Seven Seg pattern value A LINE : 'd5455 TIME : 69702089 
+# Got Seven Seg pattern value B LINE : 'd5467 TIME : 70492590 
+# Got Seven Seg pattern value C LINE : 'd5479 TIME : 71283089 
+# Got Seven Seg pattern value D LINE : 'd5491 TIME : 72073590 
+# Got Seven Seg pattern value E LINE : 'd5503 TIME : 72864089 
+# Got Seven Seg pattern value F LINE : 'd5515 TIME : 73654590 
+#  TEST_RESULT = TEST_SUCCESS and TEST_STATUS = TEST_COMPLETE LINE : 'd4929 TIME : 74871339 
+# 
+# Test pattern sent from TB	: 'h0 LINE : 'd5981 TIME : 74871339
+# Corrupted Test_pattern value	: 'h0 LINE : 'd5983 TIME : 74871339
+# Expected DATA_STATUS_REG value : 'h0 LINE : 'd5989 TIME : 74871339
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd5995 TIME : 75144839
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6001 TIME : 75423839
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6007 TIME : 75702839
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6014 TIME : 75981839
+# PASS : For SEVEN_SEG, Actual value of Data status reg 'h0 matches with expected 'h0 LINE : 'd6073 TIME : 75981839
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 76072590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 76072590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# PASS : For SEVEN_SEG, Errorcode reset implemented successfully LINE : 'd6443 TIME : 76911339
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd6454 TIME : 77190839
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6460 TIME : 77469839
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6466 TIME : 77748839
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6473 TIME : 78027839
+# Actual Value of Test Status Register = 'h0 LINE : 'd6478 TIME : 78306839
+# PASS : All 4 Data Status Registers and Test Status Register reset to 0
+# 
+# ///////////////////////////////////////////////////////////////////////////////////
+# ///////                   TEST PASSED                                      ////////
+# ///////////////////////////////////////////////////////////////////////////////////
+# 
+#  SFP LOOPBACK MODE SCENARIO - 8
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 78397590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 78397590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# TEST_STATUS = IDLE and TEST_STATUS_REG_VALUE = 00000000 LINE : 'd4874 TIME : 78562590 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 78653339.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 78653339.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# SFP module busy signal HIGH as expected ! LINE : 'd5059 TIME : 78777339 
+# TEST_STATUS = PROGRESS LINE : 'd4902 TIME : 78919089 
+#  TEST_RESULT = TEST_SUCCESS and TEST_STATUS = TEST_COMPLETE LINE : 'd4929 TIME : 109103089 
+# 
+# Test pattern sent from TB	: 'hf000000000000000 LINE : 'd5981 TIME : 109103089
+# Corrupted Test_pattern value	: 'hf000000000000000 LINE : 'd5983 TIME : 109103089
+# Expected DATA_STATUS_REG value : 'h0 LINE : 'd5989 TIME : 109103089
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd5995 TIME : 109376590
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6001 TIME : 109655590
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6007 TIME : 109934590
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6014 TIME : 110213590
+# PASS : For SFP, Actual value of Data status reg 'h0 matches with expected 'h0 LINE : 'd6040 TIME : 110213590
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 110304339.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 110304339.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# PASS : For SFP, Errorcode reset implemented successfully LINE : 'd6425 TIME : 111143089
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd6454 TIME : 111422590
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6460 TIME : 111701590
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6466 TIME : 111980590
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6473 TIME : 112259590
+# Actual Value of Test Status Register = 'h0 LINE : 'd6478 TIME : 112538590
+# PASS : All 4 Data Status Registers and Test Status Register reset to 0
+# 
+# ///////////////////////////////////////////////////////////////////////////////////
+# ///////                   TEST PASSED                                      ////////
+# ///////////////////////////////////////////////////////////////////////////////////
+# 
+#  HP INPUT MODE SCENARIO - 9
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 112629339.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 112629339.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# TEST_STATUS = IDLE and TEST_STATUS_REG_VALUE = 00000000 LINE : 'd4874 TIME : 112794339 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 112885089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 112885089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# HP module busy signal HIGH as expected ! LINE : 'd5140 TIME : 113016839 
+# TEST_STATUS = PROGRESS LINE : 'd4902 TIME : 113150839 
+#  TEST_RESULT = TEST_SUCCESS and TEST_STATUS = TEST_COMPLETE LINE : 'd4929 TIME : 158865839 
+# 
+# Test pattern sent from TB	: 'h55555555 LINE : 'd5981 TIME : 158865839
+# Corrupted Test_pattern value	: 'h55555555 LINE : 'd5983 TIME : 158865839
+# Expected DATA_STATUS_REG value : 'h0 LINE : 'd5989 TIME : 158865839
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd5995 TIME : 159139339
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6001 TIME : 159418339
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6007 TIME : 159697339
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6014 TIME : 159976339
+# PASS : For HP, Actual value of Data status reg 'h0 matches with expected 'h0 LINE : 'd6062 TIME : 159976339
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 160067089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 160067089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# PASS : For HP, Errorcode reset implemented successfully LINE : 'd6419 TIME : 160905839
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd6454 TIME : 161185339
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6460 TIME : 161464339
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6466 TIME : 161743339
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6473 TIME : 162022339
+# Actual Value of Test Status Register = 'h0 LINE : 'd6478 TIME : 162301339
+# PASS : All 4 Data Status Registers and Test Status Register reset to 0
+# 
+# ///////////////////////////////////////////////////////////////////////////////////
+# ///////                   TEST PASSED                                      ////////
+# ///////////////////////////////////////////////////////////////////////////////////
+# 
+#  HP OUTPUT MODE SCENARIO - 10
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 162392089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 162392089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# TEST_STATUS = IDLE and TEST_STATUS_REG_VALUE = 00000000 LINE : 'd4874 TIME : 162557089 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 162647839.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 162647839.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# HP module busy signal HIGH as expected ! LINE : 'd5140 TIME : 162771839 
+# TEST_STATUS = PROGRESS LINE : 'd4902 TIME : 162913590 
+#  TEST_RESULT = TEST_SUCCESS and TEST_STATUS = TEST_COMPLETE LINE : 'd4929 TIME : 208628590 
+# 
+# Test pattern sent from TB	: 'haaaaaaaa LINE : 'd5981 TIME : 208628590
+# Corrupted Test_pattern value	: 'haaaaaaaa LINE : 'd5983 TIME : 208628590
+# Expected DATA_STATUS_REG value : 'h0 LINE : 'd5989 TIME : 208628590
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd5995 TIME : 208902089
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6001 TIME : 209181089
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6007 TIME : 209460089
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6014 TIME : 209739089
+# PASS : For HP, Actual value of Data status reg 'h0 matches with expected 'h0 LINE : 'd6062 TIME : 209739089
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 209829839.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 209829839.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# PASS : For HP, Errorcode reset implemented successfully LINE : 'd6419 TIME : 210668590
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd6454 TIME : 210948089
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6460 TIME : 211227089
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6466 TIME : 211506089
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6473 TIME : 211785089
+# Actual Value of Test Status Register = 'h0 LINE : 'd6478 TIME : 212064089
+# PASS : All 4 Data Status Registers and Test Status Register reset to 0
+# 
+# ///////////////////////////////////////////////////////////////////////////////////
+# ///////                   TEST PASSED                                      ////////
+# ///////////////////////////////////////////////////////////////////////////////////
+# 
+#  LED USER MODE SCENARIO - 11
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 212154839.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 212154839.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# TEST_STATUS = IDLE and TEST_STATUS_REG_VALUE = 00000000 LINE : 'd4874 TIME : 212319839 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 212627590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 212627590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# LED module busy signal HIGH as expected ! LINE : 'd5157 TIME : 212759339 
+# TEST_STATUS = PROGRESS LINE : 'd4902 TIME : 212893339 
+# Test Pattern MATCHED LINE : 'd5005 TIME : 212893339 
+# LED pattern out of range (more than 8(0x8) not allowed) LINE : 'd5736 TIME : 212893339 
+#  TEST_RESULT = TEST_SUCCESS and TEST_STATUS = TEST_COMPLETE LINE : 'd4929 TIME : 214107839 
+# 
+# Test pattern sent from TB	: 'h41af1d635509d45d LINE : 'd5981 TIME : 214107839
+# Corrupted Test_pattern value	: 'h41af1d635509d45d LINE : 'd5983 TIME : 214107839
+# Expected DATA_STATUS_REG value : 'h0 LINE : 'd5989 TIME : 214107839
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd5995 TIME : 214381339
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6001 TIME : 214660339
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6007 TIME : 214939339
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6014 TIME : 215218339
+# PASS : For LED, Actual value of Data status reg 'h0 matches with expected 'h0 LINE : 'd6084 TIME : 215218339
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 215309089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 215309089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# PASS : For LED, Errorcode reset implemented successfully LINE : 'd6437 TIME : 216147839
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd6454 TIME : 216427339
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6460 TIME : 216706339
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6466 TIME : 216985339
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6473 TIME : 217264339
+# Actual Value of Test Status Register = 'h0 LINE : 'd6478 TIME : 217543339
+# PASS : All 4 Data Status Registers and Test Status Register reset to 0
+# 
+# ///////////////////////////////////////////////////////////////////////////////////
+# ///////                   TEST PASSED                                      ////////
+# ///////////////////////////////////////////////////////////////////////////////////
+# 
+#  LED INC MODE SCENARIO - 12
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 217634089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 217634089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# TEST_STATUS = IDLE and TEST_STATUS_REG_VALUE = 00000000 LINE : 'd4874 TIME : 217799089 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 217889839.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 217889839.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# LED module busy signal HIGH as expected ! LINE : 'd5157 TIME : 218029339 
+# TEST_STATUS = PROGRESS LINE : 'd4902 TIME : 218163339 
+# Got LED pattern value 0 LINE : 'd5759 TIME : 218163339 
+# Got LED pattern value 1 LINE : 5765 TIME : 'd218827590 
+# Got LED pattern value 2 LINE : 'd5778 TIME : 219618089 
+# Got LED pattern value 3 LINE : 'd5790 TIME : 220408590 
+# Got LED pattern value 4 LINE : 'd5802 TIME : 221199089 
+# Got LED pattern value 5 LINE : 'd5814 TIME : 221989590 
+# Got LED pattern value 6 LINE : 'd5826 TIME : 222780089 
+# Got LED pattern value 7 LINE : 'd5838 TIME : 223570590 
+#  TEST_RESULT = TEST_SUCCESS and TEST_STATUS = TEST_COMPLETE LINE : 'd4929 TIME : 225577839 
+# 
+# Test pattern sent from TB	: 'h0 LINE : 'd5981 TIME : 225577839
+# Corrupted Test_pattern value	: 'h0 LINE : 'd5983 TIME : 225577839
+# Expected DATA_STATUS_REG value : 'h0 LINE : 'd5989 TIME : 225577839
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd5995 TIME : 225851339
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6001 TIME : 226130339
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6007 TIME : 226409339
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6014 TIME : 226688339
+# PASS : For LED, Actual value of Data status reg 'h0 matches with expected 'h0 LINE : 'd6084 TIME : 226688339
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 226779089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 226779089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# PASS : For LED, Errorcode reset implemented successfully LINE : 'd6437 TIME : 227617839
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd6454 TIME : 227897339
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6460 TIME : 228176339
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6466 TIME : 228455339
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6473 TIME : 228734339
+# Actual Value of Test Status Register = 'h0 LINE : 'd6478 TIME : 229013339
+# PASS : All 4 Data Status Registers and Test Status Register reset to 0
+# 
+# ///////////////////////////////////////////////////////////////////////////////////
+# ///////                   TEST PASSED                                      ////////
+# ///////////////////////////////////////////////////////////////////////////////////
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 229104089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 229104089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+#  
+#  ////////////////////////////////////////////////////// 
+# 
+# 
+#  PCIe Loopback MODE SCENARIO - 1
+# TEST_STATUS = IDLE and TEST_STATUS_REG_VALUE = 00000000 LINE : 'd4874 TIME : 229269089 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 229359839.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 229359839.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# PCIe module busy signal HIGH as expected ! LINE : 'd5076 TIME : 229483839 
+# TEST_STATUS = PROGRESS LINE : 'd4902 TIME : 229625590 
+#  TEST_RESULT = TEST_SUCCESS and TEST_STATUS = TEST_COMPLETE LINE : 'd4929 TIME : 259809590 
+# 
+# Test pattern sent from TB	: 'hffff000000000000 LINE : 'd5981 TIME : 259809590
+# Corrupted Test_pattern value	: 'hffff000000000000 LINE : 'd5983 TIME : 259809590
+# Expected DATA_STATUS_REG value : 'h0 LINE : 'd5989 TIME : 259809590
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd5995 TIME : 260083089
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6001 TIME : 260362089
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6007 TIME : 260641089
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6014 TIME : 260920089
+# PASS : For PCIe, Actual value of Data status reg 'h0 matches with expected 'h0 LINE : 'd6051 TIME : 260920089
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 261010839.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 261010839.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# PASS : For PCI, Errorcode reset implemented successfully LINE : 'd6431 TIME : 261849590
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd6454 TIME : 262129089
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6460 TIME : 262408089
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6466 TIME : 262687089
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6473 TIME : 262966089
+# Actual Value of Test Status Register = 'h0 LINE : 'd6478 TIME : 263245089
+# PASS : All 4 Data Status Registers and Test Status Register reset to 0
+# 
+# ///////////////////////////////////////////////////////////////////////////////////
+# ///////                   TEST PASSED                                      ////////
+# ///////////////////////////////////////////////////////////////////////////////////
+# 
+#  DIO INPUT MODE SCENARIO - 2
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 263335839.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 263335839.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# TEST_STATUS = IDLE and TEST_STATUS_REG_VALUE = 00000000 LINE : 'd4874 TIME : 263500839 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 263808590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 263808590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# DIO module busy signal HIGH as expected ! LINE : 'd5092 TIME : 263940339 
+# TEST_STATUS = PROGRESS LINE : 'd4902 TIME : 264074339 
+# Test Pattern MATCHED LINE : 'd5005 TIME : 264074339 
+#  TEST_RESULT = TEST_SUCCESS and TEST_STATUS = TEST_COMPLETE LINE : 'd4929 TIME : 265149339 
+# 
+# Test pattern sent from TB	: 'h6e6971dae862db60 LINE : 'd5981 TIME : 265149339
+# Corrupted Test_pattern value	: 'h6e6971dae862db60 LINE : 'd5983 TIME : 265149339
+# Expected DATA_STATUS_REG value : 'h0 LINE : 'd5989 TIME : 265149339
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd5995 TIME : 265422839
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6001 TIME : 265701839
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6007 TIME : 265980839
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6014 TIME : 266259839
+# PASS : For DIO, Actual value of Data status reg 'h0 matches with expected 'h0 LINE : 'd6018 TIME : 266259839
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 266350590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 266350590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# PASS : For DIO, Errorcode reset implemented successfully LINE : 'd6407 TIME : 267189339
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd6454 TIME : 267468839
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6460 TIME : 267747839
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6466 TIME : 268026839
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6473 TIME : 268305839
+# Actual Value of Test Status Register = 'h0 LINE : 'd6478 TIME : 268584839
+# PASS : All 4 Data Status Registers and Test Status Register reset to 0
+# 
+# ///////////////////////////////////////////////////////////////////////////////////
+# ///////                   TEST PASSED                                      ////////
+# ///////////////////////////////////////////////////////////////////////////////////
+# 
+#  DIO OUTPUT MODE SCENARIO - 3
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 268675590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 268675590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# TEST_STATUS = IDLE and TEST_STATUS_REG_VALUE = 00000000 LINE : 'd4874 TIME : 268840590 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 269148339.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 269148339.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# DIO module busy signal HIGH as expected ! LINE : 'd5092 TIME : 269311089 
+# TEST_STATUS = PROGRESS LINE : 'd4902 TIME : 269445089 
+# Test Pattern MATCHED LINE : 'd5005 TIME : 269445089 
+#  TEST_RESULT = TEST_SUCCESS and TEST_STATUS = TEST_COMPLETE LINE : 'd4929 TIME : 270520089 
+# OUTPUT mode check PASSED LINE : 'd5021 TIME : 270520089 
+# 
+# Test pattern sent from TB	: 'hda30f7f6698fb0fa LINE : 'd5981 TIME : 270520089
+# Corrupted Test_pattern value	: 'hda30f7f6698fb0fa LINE : 'd5983 TIME : 270520089
+# Expected DATA_STATUS_REG value : 'h0 LINE : 'd5989 TIME : 270520089
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd5995 TIME : 270793590
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6001 TIME : 271072590
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6007 TIME : 271351590
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6014 TIME : 271630590
+# PASS : For DIO, Actual value of Data status reg 'h0 matches with expected 'h0 LINE : 'd6018 TIME : 271630590
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 271721339.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 271721339.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# PASS : For DIO, Errorcode reset implemented successfully LINE : 'd6407 TIME : 272560089
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd6454 TIME : 272839590
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6460 TIME : 273118590
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6466 TIME : 273397590
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6473 TIME : 273676590
+# Actual Value of Test Status Register = 'h0 LINE : 'd6478 TIME : 273955590
+# PASS : All 4 Data Status Registers and Test Status Register reset to 0
+# 
+# ///////////////////////////////////////////////////////////////////////////////////
+# ///////                   TEST PASSED                                      ////////
+# ///////////////////////////////////////////////////////////////////////////////////
+# 
+#  IOE INPUT MODE - 4
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 274046339.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 274046339.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# TEST_STATUS = IDLE and TEST_STATUS_REG_VALUE = 00000000 LINE : 'd4874 TIME : 274211339 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 274519089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 274519089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# IOE module busy signal HIGH as expected ! LINE : 'd5108 TIME : 274643089 
+# TEST_STATUS = PROGRESS LINE : 'd4902 TIME : 274784839 
+# Test Pattern MATCHED LINE : 'd5005 TIME : 274784839 
+#  TEST_RESULT = TEST_SUCCESS and TEST_STATUS = TEST_COMPLETE LINE : 'd4929 TIME : 275859839 
+# 
+# Test pattern sent from TB	: 'h1147949 LINE : 'd5981 TIME : 275859839
+# Corrupted Test_pattern value	: 'h1147949 LINE : 'd5983 TIME : 275859839
+# Expected DATA_STATUS_REG value : 'h0 LINE : 'd5989 TIME : 275859839
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd5995 TIME : 276133339
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6001 TIME : 276412339
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6007 TIME : 276691339
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6014 TIME : 276970339
+# PASS : For IOE, Actual value of Data status reg 'h0 matches with expected 'h0 LINE : 'd6029 TIME : 276970339
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 277061089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 277061089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# PASS : For IOE, Errorcode reset implemented successfully LINE : 'd6413 TIME : 277899839
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd6454 TIME : 278179339
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6460 TIME : 278458339
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6466 TIME : 278737339
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6473 TIME : 279016339
+# Actual Value of Test Status Register = 'h0 LINE : 'd6478 TIME : 279295339
+# PASS : All 4 Data Status Registers and Test Status Register reset to 0
+# 
+# ///////////////////////////////////////////////////////////////////////////////////
+# ///////                   TEST PASSED                                      ////////
+# ///////////////////////////////////////////////////////////////////////////////////
+# 
+#  IOE OUTPUT MODE SCENARIO - 5
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 279386089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 279386089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# TEST_STATUS = IDLE and TEST_STATUS_REG_VALUE = 00000000 LINE : 'd4874 TIME : 279551089 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 279858839.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 279858839.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# IOE module busy signal HIGH as expected ! LINE : 'd5108 TIME : 280013839 
+# TEST_STATUS = PROGRESS LINE : 'd4902 TIME : 280147839 
+# Test Pattern MATCHED LINE : 'd5005 TIME : 280147839 
+#  TEST_RESULT = TEST_SUCCESS and TEST_STATUS = TEST_COMPLETE LINE : 'd4929 TIME : 281222839 
+# OUTPUT mode check PASSED LINE : 'd5021 TIME : 281222839 
+# 
+# Test pattern sent from TB	: 'h6976477be03e28eb LINE : 'd5981 TIME : 281222839
+# Corrupted Test_pattern value	: 'h6976477be03e28eb LINE : 'd5983 TIME : 281222839
+# Expected DATA_STATUS_REG value : 'h0 LINE : 'd5989 TIME : 281222839
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd5995 TIME : 281496339
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6001 TIME : 281775339
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6007 TIME : 282054339
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6014 TIME : 282333339
+# PASS : For IOE, Actual value of Data status reg 'h0 matches with expected 'h0 LINE : 'd6029 TIME : 282333339
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 282424089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 282424089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# PASS : For IOE, Errorcode reset implemented successfully LINE : 'd6413 TIME : 283262839
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd6454 TIME : 283542339
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6460 TIME : 283821339
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6466 TIME : 284100339
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6473 TIME : 284379339
+# Actual Value of Test Status Register = 'h0 LINE : 'd6478 TIME : 284658339
+# PASS : All 4 Data Status Registers and Test Status Register reset to 0
+# 
+# ///////////////////////////////////////////////////////////////////////////////////
+# ///////                   TEST PASSED                                      ////////
+# ///////////////////////////////////////////////////////////////////////////////////
+# 
+#  SEVEN SEG USER MODE SCENARIO - 6
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 284749089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 284749089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# TEST_STATUS = IDLE and TEST_STATUS_REG_VALUE = 00000000 LINE : 'd4874 TIME : 284914089 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 285221839.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 285221839.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# SEVEN_SEG module busy signal HIGH as expected ! LINE : 'd5124 TIME : 285345839 
+# TEST_STATUS = PROGRESS LINE : 'd4902 TIME : 285479839 
+# Test Pattern MATCHED LINE : 'd5005 TIME : 285479839 
+# Got Seven Seg pattern MATCHED for Data_in =9 LINE : 'd5263 TIME : 285479839 
+#  TEST_RESULT = TEST_SUCCESS and TEST_STATUS = TEST_COMPLETE LINE : 'd4929 TIME : 286399839 
+# 
+# Test pattern sent from TB	: 'hf445d9e438253709 LINE : 'd5981 TIME : 286399839
+# Corrupted Test_pattern value	: 'hf445d9e438253709 LINE : 'd5983 TIME : 286399839
+# Expected DATA_STATUS_REG value : 'h0 LINE : 'd5989 TIME : 286399839
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd5995 TIME : 286673339
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6001 TIME : 286952339
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6007 TIME : 287231339
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6014 TIME : 287510339
+# PASS : For SEVEN_SEG, Actual value of Data status reg 'h0 matches with expected 'h0 LINE : 'd6073 TIME : 287510339
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 287601089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 287601089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# PASS : For SEVEN_SEG, Errorcode reset implemented successfully LINE : 'd6443 TIME : 288439839
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd6454 TIME : 288719339
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6460 TIME : 288998339
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6466 TIME : 289277339
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6473 TIME : 289556339
+# Actual Value of Test Status Register = 'h0 LINE : 'd6478 TIME : 289835339
+# PASS : All 4 Data Status Registers and Test Status Register reset to 0
+# 
+# ///////////////////////////////////////////////////////////////////////////////////
+# ///////                   TEST PASSED                                      ////////
+# ///////////////////////////////////////////////////////////////////////////////////
+# 
+#  SEVEN SEG INC MODE SCENARIO - 7
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 289926089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 289926089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# TEST_STATUS = IDLE and TEST_STATUS_REG_VALUE = 00000000 LINE : 'd4874 TIME : 290091089 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 290181839.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 290181839.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# SEVEN_SEG module busy signal HIGH as expected ! LINE : 'd5124 TIME : 290336839 
+# TEST_STATUS = PROGRESS LINE : 'd4902 TIME : 290470839 
+# Got Seven Seg pattern value 0 LINE : 'd5340 TIME : 290470839 
+# Got Seven Seg pattern value 1 LINE : 'd5346 TIME : 291135089 
+# Got Seven Seg pattern value 2 LINE : 'd5359 TIME : 291925590 
+# Got Seven Seg pattern value 3 LINE : 'd5371 TIME : 292716089 
+# Got Seven Seg pattern value 4 LINE : 'd5383 TIME : 293506590 
+# Got Seven Seg pattern value 5 LINE : 'd5395 TIME : 294297089 
+# Got Seven Seg pattern value 6 LINE : 'd5407 TIME : 295087590 
+# Got Seven Seg pattern value 7 LINE : 'd5419 TIME : 295878089 
+# Got Seven Seg pattern value 8 LINE : 'd5431 TIME : 296668590 
+# Got Seven Seg pattern value 9 LINE : 'd5443 TIME : 297459089 
+# Got Seven Seg pattern value A LINE : 'd5455 TIME : 298249590 
+# Got Seven Seg pattern value B LINE : 'd5467 TIME : 299040089 
+# Got Seven Seg pattern value C LINE : 'd5479 TIME : 299830590 
+# Got Seven Seg pattern value D LINE : 'd5491 TIME : 300621089 
+# Got Seven Seg pattern value E LINE : 'd5503 TIME : 301411590 
+# Got Seven Seg pattern value F LINE : 'd5515 TIME : 302202089 
+#  TEST_RESULT = TEST_SUCCESS and TEST_STATUS = TEST_COMPLETE LINE : 'd4929 TIME : 303418839 
+# 
+# Test pattern sent from TB	: 'h0 LINE : 'd5981 TIME : 303418839
+# Corrupted Test_pattern value	: 'h0 LINE : 'd5983 TIME : 303418839
+# Expected DATA_STATUS_REG value : 'h0 LINE : 'd5989 TIME : 303418839
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd5995 TIME : 303692339
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6001 TIME : 303971339
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6007 TIME : 304250339
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6014 TIME : 304529339
+# PASS : For SEVEN_SEG, Actual value of Data status reg 'h0 matches with expected 'h0 LINE : 'd6073 TIME : 304529339
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 304620089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 304620089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# PASS : For SEVEN_SEG, Errorcode reset implemented successfully LINE : 'd6443 TIME : 305458839
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd6454 TIME : 305738339
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6460 TIME : 306017339
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6466 TIME : 306296339
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6473 TIME : 306575339
+# Actual Value of Test Status Register = 'h0 LINE : 'd6478 TIME : 306854339
+# PASS : All 4 Data Status Registers and Test Status Register reset to 0
+# 
+# ///////////////////////////////////////////////////////////////////////////////////
+# ///////                   TEST PASSED                                      ////////
+# ///////////////////////////////////////////////////////////////////////////////////
+# 
+#  SFP LOOPBACK MODE SCENARIO - 8
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 306945089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 306945089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# TEST_STATUS = IDLE and TEST_STATUS_REG_VALUE = 00000000 LINE : 'd4874 TIME : 307110089 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 307200839.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 307200839.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# SFP module busy signal HIGH as expected ! LINE : 'd5059 TIME : 307324839 
+# TEST_STATUS = PROGRESS LINE : 'd4902 TIME : 307466590 
+#  TEST_RESULT = TEST_SUCCESS and TEST_STATUS = TEST_COMPLETE LINE : 'd4929 TIME : 337650590 
+# 
+# Test pattern sent from TB	: 'hf000000000000000 LINE : 'd5981 TIME : 337650590
+# Corrupted Test_pattern value	: 'hf000000000000000 LINE : 'd5983 TIME : 337650590
+# Expected DATA_STATUS_REG value : 'h0 LINE : 'd5989 TIME : 337650590
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd5995 TIME : 337924089
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6001 TIME : 338203089
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6007 TIME : 338482089
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6014 TIME : 338761089
+# PASS : For SFP, Actual value of Data status reg 'h0 matches with expected 'h0 LINE : 'd6040 TIME : 338761089
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 338851839.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 338851839.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# PASS : For SFP, Errorcode reset implemented successfully LINE : 'd6425 TIME : 339690590
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd6454 TIME : 339970089
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6460 TIME : 340249089
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6466 TIME : 340528089
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6473 TIME : 340807089
+# Actual Value of Test Status Register = 'h0 LINE : 'd6478 TIME : 341086089
+# PASS : All 4 Data Status Registers and Test Status Register reset to 0
+# 
+# ///////////////////////////////////////////////////////////////////////////////////
+# ///////                   TEST PASSED                                      ////////
+# ///////////////////////////////////////////////////////////////////////////////////
+# 
+#  HP INPUT MODE SCENARIO - 9
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 341176839.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 341176839.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# TEST_STATUS = IDLE and TEST_STATUS_REG_VALUE = 00000000 LINE : 'd4874 TIME : 341341839 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 341432590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 341432590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# HP module busy signal HIGH as expected ! LINE : 'd5140 TIME : 341595339 
+# TEST_STATUS = PROGRESS LINE : 'd4902 TIME : 341729339 
+#  TEST_RESULT = TEST_SUCCESS and TEST_STATUS = TEST_COMPLETE LINE : 'd4929 TIME : 387444339 
+# 
+# Test pattern sent from TB	: 'h55555555 LINE : 'd5981 TIME : 387444339
+# Corrupted Test_pattern value	: 'h55555555 LINE : 'd5983 TIME : 387444339
+# Expected DATA_STATUS_REG value : 'h0 LINE : 'd5989 TIME : 387444339
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd5995 TIME : 387717839
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6001 TIME : 387996839
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6007 TIME : 388275839
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6014 TIME : 388554839
+# PASS : For HP, Actual value of Data status reg 'h0 matches with expected 'h0 LINE : 'd6062 TIME : 388554839
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 388645590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 388645590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# PASS : For HP, Errorcode reset implemented successfully LINE : 'd6419 TIME : 389484339
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd6454 TIME : 389763839
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6460 TIME : 390042839
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6466 TIME : 390321839
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6473 TIME : 390600839
+# Actual Value of Test Status Register = 'h0 LINE : 'd6478 TIME : 390879839
+# PASS : All 4 Data Status Registers and Test Status Register reset to 0
+# 
+# ///////////////////////////////////////////////////////////////////////////////////
+# ///////                   TEST PASSED                                      ////////
+# ///////////////////////////////////////////////////////////////////////////////////
+# 
+#  HP OUTPUT MODE SCENARIO - 10
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 390970590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 390970590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# TEST_STATUS = IDLE and TEST_STATUS_REG_VALUE = 00000000 LINE : 'd4874 TIME : 391135590 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 391226339.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 391226339.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# HP module busy signal HIGH as expected ! LINE : 'd5140 TIME : 391350339 
+# TEST_STATUS = PROGRESS LINE : 'd4902 TIME : 391492089 
+#  TEST_RESULT = TEST_SUCCESS and TEST_STATUS = TEST_COMPLETE LINE : 'd4929 TIME : 437207089 
+# 
+# Test pattern sent from TB	: 'haaaaaaaa LINE : 'd5981 TIME : 437207089
+# Corrupted Test_pattern value	: 'haaaaaaaa LINE : 'd5983 TIME : 437207089
+# Expected DATA_STATUS_REG value : 'h0 LINE : 'd5989 TIME : 437207089
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd5995 TIME : 437480590
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6001 TIME : 437759590
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6007 TIME : 438038590
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6014 TIME : 438317590
+# PASS : For HP, Actual value of Data status reg 'h0 matches with expected 'h0 LINE : 'd6062 TIME : 438317590
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 438408339.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 438408339.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# PASS : For HP, Errorcode reset implemented successfully LINE : 'd6419 TIME : 439247089
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd6454 TIME : 439526590
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6460 TIME : 439805590
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6466 TIME : 440084590
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6473 TIME : 440363590
+# Actual Value of Test Status Register = 'h0 LINE : 'd6478 TIME : 440642590
+# PASS : All 4 Data Status Registers and Test Status Register reset to 0
+# 
+# ///////////////////////////////////////////////////////////////////////////////////
+# ///////                   TEST PASSED                                      ////////
+# ///////////////////////////////////////////////////////////////////////////////////
+# 
+#  LED USER MODE SCENARIO - 11
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 440733339.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 440733339.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# TEST_STATUS = IDLE and TEST_STATUS_REG_VALUE = 00000000 LINE : 'd4874 TIME : 440898339 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 441206089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 441206089.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# LED module busy signal HIGH as expected ! LINE : 'd5157 TIME : 441337839 
+# TEST_STATUS = PROGRESS LINE : 'd4902 TIME : 441471839 
+# Test Pattern MATCHED LINE : 'd5005 TIME : 441471839 
+# LED pattern out of range (more than 8(0x8) not allowed) LINE : 'd5736 TIME : 441471839 
+#  TEST_RESULT = TEST_SUCCESS and TEST_STATUS = TEST_COMPLETE LINE : 'd4929 TIME : 442686339 
+# 
+# Test pattern sent from TB	: 'hf984424e1575b4ac LINE : 'd5981 TIME : 442686339
+# Corrupted Test_pattern value	: 'hf984424e1575b4ac LINE : 'd5983 TIME : 442686339
+# Expected DATA_STATUS_REG value : 'h0 LINE : 'd5989 TIME : 442686339
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd5995 TIME : 442959839
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6001 TIME : 443238839
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6007 TIME : 443517839
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6014 TIME : 443796839
+# PASS : For LED, Actual value of Data status reg 'h0 matches with expected 'h0 LINE : 'd6084 TIME : 443796839
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 443887590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 443887590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# PASS : For LED, Errorcode reset implemented successfully LINE : 'd6437 TIME : 444726339
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd6454 TIME : 445005839
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6460 TIME : 445284839
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6466 TIME : 445563839
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6473 TIME : 445842839
+# Actual Value of Test Status Register = 'h0 LINE : 'd6478 TIME : 446121839
+# PASS : All 4 Data Status Registers and Test Status Register reset to 0
+# 
+# ///////////////////////////////////////////////////////////////////////////////////
+# ///////                   TEST PASSED                                      ////////
+# ///////////////////////////////////////////////////////////////////////////////////
+# 
+#  LED INC MODE SCENARIO - 12
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 446212590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 446212590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# TEST_STATUS = IDLE and TEST_STATUS_REG_VALUE = 00000000 LINE : 'd4874 TIME : 446377590 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 446468339.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 446468339.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# LED module busy signal HIGH as expected ! LINE : 'd5157 TIME : 446607839 
+# TEST_STATUS = PROGRESS LINE : 'd4902 TIME : 446741839 
+# Got LED pattern value 0 LINE : 'd5759 TIME : 446741839 
+# Got LED pattern value 1 LINE : 5765 TIME : 'd447406089 
+# Got LED pattern value 2 LINE : 'd5778 TIME : 448196590 
+# Got LED pattern value 3 LINE : 'd5790 TIME : 448987089 
+# Got LED pattern value 4 LINE : 'd5802 TIME : 449777590 
+# Got LED pattern value 5 LINE : 'd5814 TIME : 450568089 
+# Got LED pattern value 6 LINE : 'd5826 TIME : 451358590 
+# Got LED pattern value 7 LINE : 'd5838 TIME : 452149089 
+#  TEST_RESULT = TEST_SUCCESS and TEST_STATUS = TEST_COMPLETE LINE : 'd4929 TIME : 454156339 
+# 
+# Test pattern sent from TB	: 'h0 LINE : 'd5981 TIME : 454156339
+# Corrupted Test_pattern value	: 'h0 LINE : 'd5983 TIME : 454156339
+# Expected DATA_STATUS_REG value : 'h0 LINE : 'd5989 TIME : 454156339
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd5995 TIME : 454429839
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6001 TIME : 454708839
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6007 TIME : 454987839
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6014 TIME : 455266839
+# PASS : For LED, Actual value of Data status reg 'h0 matches with expected 'h0 LINE : 'd6084 TIME : 455266839
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 455357590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 455357590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+# PASS : For LED, Errorcode reset implemented successfully LINE : 'd6437 TIME : 456196339
+# Actual Value of DATA_STATUS_REG_1 = 'h0 LINE : 'd6454 TIME : 456475839
+# Actual Value of DATA_STATUS_REG_2 = 'h0 LINE : 'd6460 TIME : 456754839
+# Actual Value of DATA_STATUS_REG_3 = 'h0 LINE : 'd6466 TIME : 457033839
+# Actual Value of DATA_STATUS_REG_4 = 'h0 LINE : 'd6473 TIME : 457312839
+# Actual Value of Test Status Register = 'h0 LINE : 'd6478 TIME : 457591839
+# PASS : All 4 Data Status Registers and Test Status Register reset to 0
+# 
+# ///////////////////////////////////////////////////////////////////////////////////
+# ///////                   TEST PASSED                                      ////////
+# ///////////////////////////////////////////////////////////////////////////////////
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 457682590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C0.u0 
+#  ** Warning: Port A Write to and Port B Read from the same address at the same time. Read data from conflicting address is unknown
+#  Time: 457682590.0ps! Instance: AXI_INTR_TOP_tb.AXI_INTR_TOP_0.SFP_PCI_0.Test_Register_Space_SRAM_C0_0.PF_DPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_DPSRAM_AHB_AXI_0_PF_DPSRAM_R0C1.u0 
+#  
+#  ////////////////////////////////////////////////////// 
+# 
+# 
+# ///////////////////////////////////////////////////////////////////////////////////
+# ///////                    CUMULATIVE TEST PASSED                            ////////
+# ///////////////////////////////////////////////////////////////////////////////////
+# ** Note: $finish    : C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v(2327)
+#    Time: 457921339 ps  Iteration: 0  Instance: /AXI_INTR_TOP_tb
+# 1
+# Break in Module AXI_INTR_TOP_tb at C:/Users/Ethernet_10G/Downloads/SFP_PCI_Lane_test_VK18_debu_macro_added/stimulus/AXI_INTR_TOP_tb.v line 2327
+# VCD file power.vcd was successfully exported under the project simulation/ directory
+# End time: 20:29:31 on Apr 11,2022, Elapsed time: 28:48:58
+# Errors: 0, Warnings: 75
